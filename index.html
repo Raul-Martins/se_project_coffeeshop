@@ -31,7 +31,7 @@
               <a href="#recipes" class="nav__link">Recipes</a>
             </li>
             <li>
-              <a href="#table" class="nav__link">Book a Table</a>
+              <a href="#reservation" class="nav__link">Book a Table</a>
             </li>
             <li>
               <a href="#menu" class="nav__link">Menu</a>
@@ -70,7 +70,7 @@
         </div>
       </header>
       <main class="content">
-        <section class="recipes">
+        <section id="recipes" class="recipes">
           <h2 class="recipes__title">Recipes</h2>
           <p class="recipes__subtitle">
             Check out some recipes we've collected for your home-brewing
@@ -88,7 +88,8 @@
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
                 class="recipes__iframe"
-              ></iframe>
+              >
+              </iframe>
               <p class="recipes__video-caption">
                 <span> Aeropress recipe</span> ~5 min
               </p>
@@ -104,18 +105,19 @@
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
                 class="recipes__iframe"
-              ></iframe>
+              >
+              </iframe>
               <p class="recipes__video-caption">
                 <span>French press recipe</span> ~15 min
               </p>
             </div>
           </div>
         </section>
-        <section class="reservation"></section>
-        <section class="menu"></section>
+        <section id="reservation" class="reservation"></section>
+        <section id="menu" class="menu"></section>
         <section class="about"></section>
       </main>
-      <footer class="footer"></footer>
+      <footer id="contacts" class="footer"></footer>
     </div>
   </body>
 </html>
