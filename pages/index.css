@@ -74,6 +74,14 @@
   line-height: 30px;
 }
 
+.header__image {
+  width: 646px;
+  height: 568px;
+  position: absolute;
+  right: 85px;
+  top: 124px;
+}
+
 .header__span-accent {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
@@ -96,6 +104,8 @@
 .recipes {
   padding: 100px 80px 215px;
   background-image: url(../images/background_recipes.svg);
+  background-color: #0a2750;
+  color: #fff;
 }
 
 .recipes__title {
