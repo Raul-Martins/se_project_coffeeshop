@@ -44,6 +44,7 @@
 }
 
 .about__paragraph {
+  padding: 0 0 20px;
   margin: 0;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
@@ -51,7 +52,7 @@
 }
 
 .about__paragraph:last-of-type {
-  padding: 0 0 20px;
+  padding: 0;
 }
 
 .about__circle {
